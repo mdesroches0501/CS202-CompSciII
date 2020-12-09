@@ -1,0 +1,25 @@
+/* -----------------------------------------------------------------------------
+FILE NAME:         cs202_template.cpp
+DESCRIPTION:       Template for building stand-alone programs
+USAGE:             ./cs202_template
+COMPILER:          GNU g++ compiler on Linux
+NOTES:             
+
+MODIFICATION HISTORY:
+Author             Date               Version
+---------------    ----------         --------------
+Michael Des Roches 2018-01-01         1.0
+----------------------------------------------------------------------------- */
+
+#include <iostream>
+
+using namespace std;
+
+const char PROGRAMMER_NAME[] = "Michael Des Roches";	// Global constant
+
+/* -----------------------------------------------------------------------------
+FUNCTION:          main()
+DESCRIPTION:       Say something meaningful
+RETURNS:           0
+NOTES:             
+------------------------------------------------------------------------------- */

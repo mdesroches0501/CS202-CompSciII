@@ -1,0 +1,17 @@
+## header goes here
+
+## This is our original generic makefile command that will build
+## any stand alone .cpp source file
+
+.cpp :
+	g++ -o $* $*.cpp -std=c++11
+
+##	This will build two objects files required for 'poly_class_v2'
+##	and link them to single ex
+## 	usage : make -f Makefile2 poly_struct_v2
+
+poly_class_v2: Polynomial.o poly_class_v2.o
+	g++ -o $@ $@.o Polynomial.o -std=c++11
+
+poly_class_v2.o : Polynomial.h
+Polynomial.o	: Polynomial.h

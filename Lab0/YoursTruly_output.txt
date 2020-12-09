@@ -1,0 +1,7 @@
+
+The value of 3! is: 6
+
+This program was written by YoursTruly.
+
+Goodbye.
+

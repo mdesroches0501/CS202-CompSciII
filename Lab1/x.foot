@@ -1,0 +1,5 @@
+	cout << endl;
+	cout << "Programmed by: " << PROGRAMMER_NAME << " -- ";
+	cout << __DATE__ << "  " __TIME__ << endl;
+	cout << endl;
+

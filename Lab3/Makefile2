@@ -1,0 +1,30 @@
+#-----------------------------------------------------------------------------
+# FILE NAME:	Makefile
+#
+# DESCRIPTION:  Makefile for a C++ program
+#
+# PURPOSE:	Build a program executable on Linux
+#
+# MODIFICATION HISTORY:
+#
+# Author	       Date	    Modifications(s)
+# -----------	       ---------    ----------------
+# Michael Des Roches   2018-02-01   Version 1
+#_____________________________________________________________________________
+
+#	This is our original generic makefile command that will build
+#	any stand alone ".cpp" source file.
+#	Usage: e.g, make hello
+
+.cpp :
+	g++ -o $* $*.cpp -std=c++11
+
+#	This will build the files that have dependencies on .h files
+#	Usage:   make -f Makefile2 structures_v4
+
+structures_v4.cpp : structures_v4.h
+structures_v5.cpp : structures_v5.h
+structures_v6.cpp : structures_v6.h
+structures_v6.cpp : structures_v7.h
+
+
