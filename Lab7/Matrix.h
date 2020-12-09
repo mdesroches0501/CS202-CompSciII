@@ -10,7 +10,7 @@
  MODIFICATION HISTORY:
  Author             Date               Version
  ---------------    ----------         --------------
- Brianna Schmidt    2018-04-11         1.0
+ Michael DesRoches  2018-04-11         1.0
  ----------------------------------------------------------------------------- */
 
 #include <iostream>

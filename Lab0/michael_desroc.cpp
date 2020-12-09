@@ -17,7 +17,7 @@ MODIFICATION HISTORY:
 
 Author              Date          Modification(s)
 ----------------    ----------    ---------------
-Joel Fredrickson    2018-01-30    Version 00002
+Michael Desroches   2018-01-30    Version 00002
 
 ----------------------------------------------------------------------------- */
 

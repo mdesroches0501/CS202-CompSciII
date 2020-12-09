@@ -17,7 +17,7 @@ MODIFICATION HISTORY:
 
 Author              Date          Modification(s)
 ----------------    ----------    ---------------
-Joel Fredrickson    2016-01-22    Version 0001
+Michael DesRoches   2016-01-22    Version 0001
 
 ----------------------------------------------------------------------------- */
 

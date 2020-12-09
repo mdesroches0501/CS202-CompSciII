@@ -6,7 +6,7 @@
 
 #Author             Date           Modification(s)
 #----------------   -----------    ---------------
-#Brianna Schmidt    2018-04-11     Version 1
+#Michael DesRoches  2018-04-11     Version 1
 #-----------------------------------------------------------------------------
 
 #       This generic makefile command builds any stand alone ".cpp" source file.
